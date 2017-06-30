@@ -6,7 +6,7 @@ import sys
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-mode = 'cbow'  # 'cbow' or 'skipgram'
+mode = 'skipgram'  # 'cbow' or 'skipgram'
 model_file = 'fasttext_' + mode + '.model.bin'
 
 model = fasttext.load_model(model_file)

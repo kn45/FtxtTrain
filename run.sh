@@ -6,7 +6,7 @@
 #rm -f corpus/ftxt_noclz_corp.seg.tmp
 
 # train fasttext model
-ftxt_train.py
+python ftxt_train.py
 
 # test fastext model
-ftxt_test.py
+python ftxt_test.py
